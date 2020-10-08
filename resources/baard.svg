@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:ooo="http://xml.openoffice.org/svg/export"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
+   viewBox="0 0 2800 790"
+   preserveAspectRatio="xMidYMid"
+   xml:space="preserve"
+   id="svg586"
+   sodipodi:docname="baard.svg"
+   width="2800"
+   height="790"
+   style="fill-rule:evenodd;stroke-width:28.22200012;stroke-linejoin:round"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata590"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="3773"
+   inkscape:window-height="2098"
+   id="namedview588"
+   showgrid="false"
+   inkscape:zoom="1"
+   inkscape:cx="1377.0807"
+   inkscape:cy="115"
+   inkscape:window-x="67"
+   inkscape:window-y="34"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg586" />
+ <defs
+   class="ClipPathGroup"
+   id="defs8"><clipPath
+     id="presentation_clip_path"
+     clipPathUnits="userSpaceOnUse">
+   <rect
+   x="0"
+   y="0"
+   width="28000"
+   height="15750"
+   id="rect2" />
+  </clipPath></defs>
+ <defs
+   id="defs13" />
+ <defs
+   id="presentation-animations" />
+ <defs
+   id="defs91" />
+ <defs
+   id="defs128" />
+ <defs
+   id="defs139" />
+ <defs
+   class="TextShapeIndex"
+   id="defs143" />
+ <defs
+   class="EmbeddedBulletChars"
+   id="defs175" />
+ <defs
+   class="TextEmbeddedBitmaps"
+   id="defs177" />
+ <defs
+   id="defs224" />
+ <g
+   class="DummySlide"
+   id="g231"
+   transform="matrix(0.1,0,0,0.1,220,8.589)">
+  <g
+   id="g229">
+   <g
+   id="dummy-slide"
+   class="Slide"
+   clip-path="url(#presentation_clip_path)">
+    <g
+   ooo:name="dummy-page"
+   class="Page"
+   id="g226" />
+   </g>
+  </g>
+ </g>
+ <g
+   class="SlideGroup"
+   id="g582"
+   transform="matrix(0.1,0,0,0.1,220,8.589)">
+  <g
+   visibility="hidden"
+   id="g580"
+   style="visibility:hidden">
+   <g
+   id="container-id1">
+    <g
+   id="id1"
+   class="Slide"
+   clip-path="url(#presentation_clip_path)">
+     <g
+   ooo:name="page4"
+   class="Page"
+   id="g576">
+      <g
+   class="com.sun.star.drawing.CustomShape"
+   id="g248">
+       <g
+   id="id6">
+        <rect
+   class="BoundingBox"
+   x="9799"
+   y="-1"
+   width="4003"
+   height="1503"
+   id="rect233"
+   style="fill:none;stroke:none" />
+        <path
+   d="M 11800,1500 H 9800 V 0 h 4000 v 1500 z"
+   id="path235"
+   inkscape:connector-curvature="0"
+   style="fill:#dddddd;stroke:none" />
+        <path
+   d="M 11800,1500 H 9800 V 0 h 4000 v 1500 z"
+   id="path237"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#ffffff" />
+        <text
+   class="TextShape"
+   id="text245"><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan243"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="9965"
+       y="971"
+       id="tspan241"><tspan
+         id="tspan239"
+         style="fill:#000000;stroke:none">Training data</tspan></tspan></tspan></text>
+
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.CustomShape"
+   id="g271">
+       <g
+   id="id7">
+        <rect
+   class="BoundingBox"
+   x="9963"
+   y="3673"
+   width="3665"
+   height="1554"
+   id="rect250"
+   style="fill:none;stroke:none" />
+        <path
+   d="m 11796,5197 -1804,2 -2,-1495 3608,-4 2,1495 z"
+   id="path252"
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff;stroke:none" />
+        <path
+   d="m 11796,5197 -1804,2 -2,-1495 3608,-4 2,1495 z"
+   id="path254"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#000000;stroke-width:53;stroke-linejoin:round" />
+        <text
+   class="TextShape"
+   id="text268"><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan260"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="10442"
+       y="4316"
+       id="tspan258"><tspan
+         id="tspan256"
+         style="fill:#000000;stroke:none">Reliability</tspan></tspan></tspan><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan266"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="10968"
+       y="5026"
+       id="tspan264"><tspan
+         id="tspan262"
+         style="fill:#000000;stroke:none">Stage</tspan></tspan></tspan></text>
+
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.CustomShape"
+   id="g294">
+       <g
+   id="id8">
+        <rect
+   class="BoundingBox"
+   x="14963"
+   y="3673"
+   width="3665"
+   height="1554"
+   id="rect273"
+   style="fill:none;stroke:none" />
+        <path
+   d="m 16796,5197 -1804,2 -2,-1495 3608,-4 2,1495 z"
+   id="path275"
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff;stroke:none" />
+        <path
+   d="m 16796,5197 -1804,2 -2,-1495 3608,-4 2,1495 z"
+   id="path277"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#000000;stroke-width:53;stroke-linejoin:round" />
+        <text
+   class="TextShape"
+   id="text291"><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan283"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="15177"
+       y="4316"
+       id="tspan281"><tspan
+         id="tspan279"
+         style="fill:#000000;stroke:none">Decidability</tspan></tspan></tspan><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan289"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="15968"
+       y="5026"
+       id="tspan287"><tspan
+         id="tspan285"
+         style="fill:#000000;stroke:none">Stage</tspan></tspan></tspan></text>
+
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.CustomShape"
+   id="g311">
+       <g
+   id="id9">
+        <rect
+   class="BoundingBox"
+   x="-1"
+   y="3599"
+   width="3603"
+   height="1503"
+   id="rect296"
+   style="fill:none;stroke:none" />
+        <path
+   d="M 1800,5100 H 0 V 3600 h 3600 v 1500 z"
+   id="path298"
+   inkscape:connector-curvature="0"
+   style="fill:#dddddd;stroke:none" />
+        <path
+   d="M 1800,5100 H 0 V 3600 h 3600 v 1500 z"
+   id="path300"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#ffffff" />
+        <text
+   class="TextShape"
+   id="text308"><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan306"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="393"
+       y="4571"
+       id="tspan304"><tspan
+         id="tspan302"
+         style="fill:#000000;stroke:none">New input</tspan></tspan></tspan></text>
+
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.ConnectorShape"
+   id="g320">
+       <g
+   id="id10">
+        <rect
+   class="BoundingBox"
+   x="3573"
+   y="4212"
+   width="1430"
+   height="281"
+   id="rect313"
+   style="fill:none;stroke:none" />
+        <path
+   d="m 3600,4350 h 952 v 2 h 50"
+   id="path315"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#00b274;stroke-width:53;stroke-linejoin:round" />
+        <path
+   d="m 5002,4352 -418,-139 v 279 z"
+   id="path317"
+   inkscape:connector-curvature="0"
+   style="fill:#00b274;stroke:none" />
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.CustomShape"
+   id="g343">
+       <g
+   id="id11">
+        <rect
+   class="BoundingBox"
+   x="4973"
+   y="3572"
+   width="3665"
+   height="1554"
+   id="rect322"
+   style="fill:none;stroke:none" />
+        <path
+   d="m 6806,5096 -1804,2 -2,-1495 3608,-4 2,1495 z"
+   id="path324"
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff;stroke:none" />
+        <path
+   d="m 6806,5096 -1804,2 -2,-1495 3608,-4 2,1495 z"
+   id="path326"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#000000;stroke-width:53;stroke-linejoin:round" />
+        <text
+   class="TextShape"
+   id="text340"><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan332"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="5134"
+       y="4215"
+       id="tspan330"><tspan
+         id="tspan328"
+         style="fill:#000000;stroke:none">Applicability</tspan></tspan></tspan><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan338"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="5978"
+       y="4925"
+       id="tspan336"><tspan
+         id="tspan334"
+         style="fill:#000000;stroke:none">Stage</tspan></tspan></tspan></text>
+
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.CustomShape"
+   id="g360">
+       <g
+   id="id12">
+        <rect
+   class="BoundingBox"
+   x="-1"
+   y="3599"
+   width="3603"
+   height="1503"
+   id="rect345"
+   style="fill:none;stroke:none" />
+        <path
+   d="M 1800,5100 H 0 V 3600 h 3600 v 1500 z"
+   id="path347"
+   inkscape:connector-curvature="0"
+   style="fill:#dddddd;stroke:none" />
+        <path
+   d="M 1800,5100 H 0 V 3600 h 3600 v 1500 z"
+   id="path349"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#ffffff" />
+        <text
+   class="TextShape"
+   id="text357"><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan355"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="393"
+       y="4571"
+       id="tspan353"><tspan
+         id="tspan351"
+         style="fill:#000000;stroke:none">New input</tspan></tspan></tspan></text>
+
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.ConnectorShape"
+   id="g369">
+       <g
+   id="id13">
+        <rect
+   class="BoundingBox"
+   x="3573"
+   y="4212"
+   width="1430"
+   height="281"
+   id="rect362"
+   style="fill:none;stroke:none" />
+        <path
+   d="m 3600,4350 h 952 v 2 h 50"
+   id="path364"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#00b274;stroke-width:53;stroke-linejoin:round" />
+        <path
+   d="m 5002,4352 -418,-139 v 279 z"
+   id="path366"
+   inkscape:connector-curvature="0"
+   style="fill:#00b274;stroke:none" />
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.CustomShape"
+   id="g392">
+       <g
+   id="id14">
+        <rect
+   class="BoundingBox"
+   x="9999"
+   y="6299"
+   width="3603"
+   height="1503"
+   id="rect371"
+   style="fill:none;stroke:none" />
+        <path
+   d="M 11800,7800 H 10000 V 6300 h 3600 v 1500 z"
+   id="path373"
+   inkscape:connector-curvature="0"
+   style="fill:#dddddd;stroke:none" />
+        <path
+   d="M 11800,7800 H 10000 V 6300 h 3600 v 1500 z"
+   id="path375"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#ffffff" />
+        <text
+   class="TextShape"
+   id="text389"><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan381"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="10482"
+       y="6915"
+       id="tspan379"><tspan
+         id="tspan377"
+         style="fill:#000000;stroke:none">Rejection</tspan></tspan></tspan><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan387"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="10640"
+       y="7626"
+       id="tspan385"><tspan
+         id="tspan383"
+         style="fill:#000000;stroke:none">decision</tspan></tspan></tspan></text>
+
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.ConnectorShape"
+   id="g401">
+       <g
+   id="id15">
+        <rect
+   class="BoundingBox"
+   x="13573"
+   y="4260"
+   width="1416"
+   height="281"
+   id="rect394"
+   style="fill:none;stroke:none" />
+        <path
+   d="m 13600,4398 h 694 v 2 h 294"
+   id="path396"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#00b274;stroke-width:53;stroke-linejoin:round" />
+        <path
+   d="m 14988,4400 -418,-139 v 279 z"
+   id="path398"
+   inkscape:connector-curvature="0"
+   style="fill:#00b274;stroke:none" />
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.ConnectorShape"
+   id="g410">
+       <g
+   id="id16">
+        <rect
+   class="BoundingBox"
+   x="8583"
+   y="4260"
+   width="1416"
+   height="281"
+   id="rect403"
+   style="fill:none;stroke:none" />
+        <path
+   d="m 8610,4398 h 694 v 2 h 294"
+   id="path405"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#00b274;stroke-width:53;stroke-linejoin:round" />
+        <path
+   d="m 9998,4400 -418,-139 v 279 z"
+   id="path407"
+   inkscape:connector-curvature="0"
+   style="fill:#00b274;stroke:none" />
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.ConnectorShape"
+   id="g419">
+       <g
+   id="id17">
+        <rect
+   class="BoundingBox"
+   x="8575"
+   y="4373"
+   width="1426"
+   height="2678"
+   id="rect412"
+   style="fill:none;stroke:none" />
+        <path
+   d="M 8602,4400 9747,6570"
+   id="path414"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#ed1c24;stroke-width:53;stroke-linejoin:round" />
+        <path
+   d="m 10000,7050 -98,-591 -335,177 z"
+   id="path416"
+   inkscape:connector-curvature="0"
+   style="fill:#ed1c24;stroke:none" />
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.CustomShape"
+   id="g442">
+       <g
+   id="id18">
+        <rect
+   class="BoundingBox"
+   x="9986"
+   y="6286"
+   width="3603"
+   height="1503"
+   id="rect421"
+   style="fill:none;stroke:none" />
+        <path
+   d="M 11787,7787 H 9987 V 6287 h 3600 v 1500 z"
+   id="path423"
+   inkscape:connector-curvature="0"
+   style="fill:#dddddd;stroke:none" />
+        <path
+   d="M 11787,7787 H 9987 V 6287 h 3600 v 1500 z"
+   id="path425"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#ffffff" />
+        <text
+   class="TextShape"
+   id="text439"><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan431"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="10469"
+       y="6902"
+       id="tspan429"><tspan
+         id="tspan427"
+         style="fill:#000000;stroke:none">Rejection</tspan></tspan></tspan><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan437"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="10627"
+       y="7613"
+       id="tspan435"><tspan
+         id="tspan433"
+         style="fill:#000000;stroke:none">decision</tspan></tspan></tspan></text>
+
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.ConnectorShape"
+   id="g451">
+       <g
+   id="id19">
+        <rect
+   class="BoundingBox"
+   x="8562"
+   y="4360"
+   width="1426"
+   height="2678"
+   id="rect444"
+   style="fill:none;stroke:none" />
+        <path
+   d="M 8589,4387 9734,6557"
+   id="path446"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#ed1c24;stroke-width:53;stroke-linejoin:round" />
+        <path
+   d="m 9987,7037 -98,-591 -335,177 z"
+   id="path448"
+   inkscape:connector-curvature="0"
+   style="fill:#ed1c24;stroke:none" />
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.CustomShape"
+   id="g474">
+       <g
+   id="id20">
+        <rect
+   class="BoundingBox"
+   x="14999"
+   y="6299"
+   width="3603"
+   height="1503"
+   id="rect453"
+   style="fill:none;stroke:none" />
+        <path
+   d="M 16800,7800 H 15000 V 6300 h 3600 v 1500 z"
+   id="path455"
+   inkscape:connector-curvature="0"
+   style="fill:#dddddd;stroke:none" />
+        <path
+   d="M 16800,7800 H 15000 V 6300 h 3600 v 1500 z"
+   id="path457"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#ffffff" />
+        <text
+   class="TextShape"
+   id="text471"><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan463"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="15482"
+       y="6915"
+       id="tspan461"><tspan
+         id="tspan459"
+         style="fill:#000000;stroke:none">Rejection</tspan></tspan></tspan><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan469"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="15640"
+       y="7626"
+       id="tspan467"><tspan
+         id="tspan465"
+         style="fill:#000000;stroke:none">decision</tspan></tspan></tspan></text>
+
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.ConnectorShape"
+   id="g483">
+       <g
+   id="id21">
+        <rect
+   class="BoundingBox"
+   x="13575"
+   y="4373"
+   width="1426"
+   height="2678"
+   id="rect476"
+   style="fill:none;stroke:none" />
+        <path
+   d="m 13602,4400 1145,2170"
+   id="path478"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#ed1c24;stroke-width:53;stroke-linejoin:round" />
+        <path
+   d="m 15000,7050 -98,-591 -335,177 z"
+   id="path480"
+   inkscape:connector-curvature="0"
+   style="fill:#ed1c24;stroke:none" />
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.CustomShape"
+   id="g506">
+       <g
+   id="id22">
+        <rect
+   class="BoundingBox"
+   x="19997"
+   y="6299"
+   width="3603"
+   height="1503"
+   id="rect485"
+   style="fill:none;stroke:none" />
+        <path
+   d="M 21798,7800 H 19998 V 6300 h 3600 v 1500 z"
+   id="path487"
+   inkscape:connector-curvature="0"
+   style="fill:#dddddd;stroke:none" />
+        <path
+   d="M 21798,7800 H 19998 V 6300 h 3600 v 1500 z"
+   id="path489"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#ffffff" />
+        <text
+   class="TextShape"
+   id="text503"><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan495"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="20480"
+       y="6915"
+       id="tspan493"><tspan
+         id="tspan491"
+         style="fill:#000000;stroke:none">Rejection</tspan></tspan></tspan><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan501"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="20638"
+       y="7626"
+       id="tspan499"><tspan
+         id="tspan497"
+         style="fill:#000000;stroke:none">decision</tspan></tspan></tspan></text>
+
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.ConnectorShape"
+   id="g515">
+       <g
+   id="id23">
+        <rect
+   class="BoundingBox"
+   x="18573"
+   y="4373"
+   width="1426"
+   height="2678"
+   id="rect508"
+   style="fill:none;stroke:none" />
+        <path
+   d="m 18600,4400 1145,2170"
+   id="path510"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#ed1c24;stroke-width:53;stroke-linejoin:round" />
+        <path
+   d="m 19998,7050 -98,-591 -335,177 z"
+   id="path512"
+   inkscape:connector-curvature="0"
+   style="fill:#ed1c24;stroke:none" />
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.ConnectorShape"
+   id="g524">
+       <g
+   id="id24">
+        <rect
+   class="BoundingBox"
+   x="18573"
+   y="4262"
+   width="1416"
+   height="281"
+   id="rect517"
+   style="fill:none;stroke:none" />
+        <path
+   d="m 18600,4400 h 694 v 2 h 294"
+   id="path519"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#00b274;stroke-width:53;stroke-linejoin:round" />
+        <path
+   d="m 19988,4402 -418,-139 v 279 z"
+   id="path521"
+   inkscape:connector-curvature="0"
+   style="fill:#00b274;stroke:none" />
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.CustomShape"
+   id="g547">
+       <g
+   id="id25">
+        <rect
+   class="BoundingBox"
+   x="19999"
+   y="3699"
+   width="3603"
+   height="1503"
+   id="rect526"
+   style="fill:none;stroke:none" />
+        <path
+   d="M 21800,5200 H 20000 V 3700 h 3600 v 1500 z"
+   id="path528"
+   inkscape:connector-curvature="0"
+   style="fill:#dddddd;stroke:none" />
+        <path
+   d="M 21800,5200 H 20000 V 3700 h 3600 v 1500 z"
+   id="path530"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#ffffff" />
+        <text
+   class="TextShape"
+   id="text544"><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan536"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="20848"
+       y="4315"
+       id="tspan534"><tspan
+         id="tspan532"
+         style="fill:#000000;stroke:none">Fail to </tspan></tspan></tspan><tspan
+     class="TextParagraph"
+     font-size="635px"
+     font-weight="400"
+     id="tspan542"
+     style="font-weight:400;font-size:635px;font-family:'Liberation Sans', sans-serif"><tspan
+       class="TextPosition"
+       x="20903"
+       y="5026"
+       id="tspan540"><tspan
+         id="tspan538"
+         style="fill:#000000;stroke:none">Reject</tspan></tspan></tspan></text>
+
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.ConnectorShape"
+   id="g556">
+       <g
+   id="id26">
+        <rect
+   class="BoundingBox"
+   x="11604"
+   y="1473"
+   width="381"
+   height="2229"
+   id="rect549"
+   style="fill:none;stroke:none" />
+        <path
+   d="m 11800,1500 -6,1100 v 558"
+   id="path551"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#21409a;stroke-width:53;stroke-linejoin:round" />
+        <path
+   d="m 11794,3701 190,-568 h -379 z"
+   id="path553"
+   inkscape:connector-curvature="0"
+   style="fill:#21409a;stroke:none" />
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.ConnectorShape"
+   id="g565">
+       <g
+   id="id27">
+        <rect
+   class="BoundingBox"
+   x="11773"
+   y="1473"
+   width="5212"
+   height="2229"
+   id="rect558"
+   style="fill:none;stroke:none" />
+        <path
+   d="m 11800,1500 4994,1100 v 558"
+   id="path560"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#21409a;stroke-width:53;stroke-linejoin:round" />
+        <path
+   d="m 16794,3701 190,-568 h -379 z"
+   id="path562"
+   inkscape:connector-curvature="0"
+   style="fill:#21409a;stroke:none" />
+       </g>
+      </g>
+      <g
+   class="com.sun.star.drawing.ConnectorShape"
+   id="g574">
+       <g
+   id="id28">
+        <rect
+   class="BoundingBox"
+   x="6614"
+   y="1473"
+   width="5214"
+   height="2128"
+   id="rect567"
+   style="fill:none;stroke:none" />
+        <path
+   d="M 11800,1500 6804,2600 v 457"
+   id="path569"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#21409a;stroke-width:53;stroke-linejoin:round" />
+        <path
+   d="m 6804,3600 190,-568 h -379 z"
+   id="path571"
+   inkscape:connector-curvature="0"
+   style="fill:#21409a;stroke:none" />
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <script
+   type="text/ecmascript"
+   id="script584"><![CDATA[
+
+
+/*****
+* @licstart
+*
+* The following is the license notice for the part of JavaScript code of this
+* page included between the '@jessyinkstart' and the '@jessyinkend' notes.
+*/
+
+/*****  ******************************************************************
+*
+* Copyright 2008-2013 Hannes Hochreiner
+*
+* The JavaScript code included between the start note '@jessyinkstart'
+* and the end note '@jessyinkend' is subject to the terms of the Mozilla
+* Public License, v. 2.0. If a copy of the MPL was not distributed with
+* this file, You can obtain one at http://mozilla.org/MPL/2.0/.
+*
+* Alternatively, you can redistribute and/or that part of this file
+* under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see http://www.gnu.org/licenses/.
+*/
+
+/*****
+*  You can find the complete source code of the JessyInk project at:
+*  @source http://code.google.com/p/jessyink/
+*/
+
+/*****
+* @licend
+*
+* The above is the license notice for the part of JavaScript code of this
+* page included between the '@jessyinkstart' and the '@jessyinkend' notes.
+*/
+
+
+/*****
+* @jessyinkstart
+*
+*  The following code is a derivative work of some parts of the JessyInk
+*  project.
+*  @source http://code.google.com/p/jessyink/
+*/
+
+function getElementsByProperty( node, name )
+{
+var elements = [];
+
+if( node.getAttribute( name ) )
+elements.push( node );
+
+for( var counter = 0; counter < node.childNodes.length; ++counter )
+{
+if( node.childNodes[counter].nodeType == 1 )
+{
+var subElements = getElementsByProperty( node.childNodes[counter], name );
+elements = elements.concat( subElements );
+}
+}
+return elements;
+}
+
+function onKeyDown( aEvt )
+{
+if ( !aEvt )
+aEvt = window.event;
+
+var code = aEvt.keyCode || aEvt.charCode;
+
+if( !processingEffect && keyCodeDictionary[currentMode] && keyCodeDictionary[currentMode][code] )
+{
+return keyCodeDictionary[currentMode][code]();
+}
+else
+{
+document.onkeypress = onKeyPress;
+return null;
+}
+}
+document.onkeydown = onKeyDown;
+
+function onKeyPress( aEvt )
+{
+document.onkeypress = null;
+
+if ( !aEvt )
+aEvt = window.event;
+
+var str = String.fromCharCode( aEvt.keyCode || aEvt.charCode );
+
+if ( !processingEffect && charCodeDictionary[currentMode] && charCodeDictionary[currentMode][str] )
+return charCodeDictionary[currentMode][str]();
+
+return null;
+}
+
+function getDefaultKeyCodeDictionary()
+{
+var keyCodeDict = {};
+
+keyCodeDict[SLIDE_MODE] = {};
+keyCodeDict[INDEX_MODE] = {};
+
+keyCodeDict[SLIDE_MODE][LEFT_KEY]
+= function() { return aSlideShow.rewindEffect(); };
+keyCodeDict[SLIDE_MODE][RIGHT_KEY]
+= function() { return dispatchEffects(1); };
+keyCodeDict[SLIDE_MODE][UP_KEY]
+= function() { return aSlideShow.rewindEffect(); };
+keyCodeDict[SLIDE_MODE][DOWN_KEY]
+= function() { return skipEffects(1); };
+keyCodeDict[SLIDE_MODE][PAGE_UP_KEY]
+= function() { return aSlideShow.rewindAllEffects(); };
+keyCodeDict[SLIDE_MODE][PAGE_DOWN_KEY]
+= function() { return skipAllEffects(); };
+keyCodeDict[SLIDE_MODE][HOME_KEY]
+= function() { return aSlideShow.displaySlide( 0, true ); };
+keyCodeDict[SLIDE_MODE][END_KEY]
+= function() { return aSlideShow.displaySlide( theMetaDoc.nNumberOfSlides - 1, true ); };
+keyCodeDict[SLIDE_MODE][SPACE_KEY]
+= function() { return dispatchEffects(1); };
+
+keyCodeDict[INDEX_MODE][LEFT_KEY]
+= function() { return indexSetPageSlide( theSlideIndexPage.selectedSlideIndex - 1 ); };
+keyCodeDict[INDEX_MODE][RIGHT_KEY]
+= function() { return indexSetPageSlide( theSlideIndexPage.selectedSlideIndex + 1 ); };
+keyCodeDict[INDEX_MODE][UP_KEY]
+= function() { return indexSetPageSlide( theSlideIndexPage.selectedSlideIndex - theSlideIndexPage.indexColumns ); };
+keyCodeDict[INDEX_MODE][DOWN_KEY]
+= function() { return indexSetPageSlide( theSlideIndexPage.selectedSlideIndex + theSlideIndexPage.indexColumns ); };
+keyCodeDict[INDEX_MODE][PAGE_UP_KEY]
+= function() { return indexSetPageSlide( theSlideIndexPage.selectedSlideIndex - theSlideIndexPage.getTotalThumbnails() ); };
+keyCodeDict[INDEX_MODE][PAGE_DOWN_KEY]
+= function() { return indexSetPageSlide( theSlideIndexPage.selectedSlideIndex + theSlideIndexPage.getTotalThumbnails() ); };
+keyCodeDict[INDEX_MODE][HOME_KEY]
+= function() { return indexSetPageSlide( 0 ); };
+keyCodeDict[INDEX_MODE][END_KEY]
+= function() { return indexSetPageSlide( theMetaDoc.nNumberOfSlides - 1 ); };
+keyCodeDict[INDEX_MODE][ENTER_KEY]
+= function() { return toggleSlideIndex(); };
+keyCodeDict[INDEX_MODE][SPACE_KEY]
+= function() { return toggleSlideIndex(); };
+keyCodeDict[INDEX_MODE][ESCAPE_KEY]
+= function() { return abandonIndexMode(); };
+
+return keyCodeDict;
+}
+
+function getDefaultCharCodeDictionary()
+{
+var charCodeDict = {};
+
+charCodeDict[SLIDE_MODE] = {};
+charCodeDict[INDEX_MODE] = {};
+
+charCodeDict[SLIDE_MODE]['i']
+= function () { return toggleSlideIndex(); };
+
+charCodeDict[INDEX_MODE]['i']
+= function () { return toggleSlideIndex(); };
+charCodeDict[INDEX_MODE]['-']
+= function () { return theSlideIndexPage.decreaseNumberOfColumns(); };
+charCodeDict[INDEX_MODE]['=']
+= function () { return theSlideIndexPage.increaseNumberOfColumns(); };
+charCodeDict[INDEX_MODE]['+']
+= function () { return theSlideIndexPage.increaseNumberOfColumns(); };
+charCodeDict[INDEX_MODE]['0']
+= function () { return theSlideIndexPage.resetNumberOfColumns(); };
+
+return charCodeDict;
+}
+
+
+function slideOnMouseUp( aEvt )
+{
+if (!aEvt)
+aEvt = window.event;
+
+var nOffset = 0;
+
+if( aEvt.button == 0 )
+nOffset = 1;
+else if( aEvt.button == 2 )
+nOffset = -1;
+
+if( 0 != nOffset )
+dispatchEffects( nOffset );
+return true; // the click has been handled
+}
+
+document.handleClick = slideOnMouseUp;
+
+
+function slideOnMouseWheel(aEvt)
+{
+var delta = 0;
+
+if (!aEvt)
+aEvt = window.event;
+
+if (aEvt.wheelDelta)
+{ // IE Opera
+delta = aEvt.wheelDelta/120;
+}
+else if (aEvt.detail)
+{ // MOZ
+delta = -aEvt.detail/3;
+}
+
+if (delta > 0)
+skipEffects(-1);
+else if (delta < 0)
+skipEffects(1);
+
+if (aEvt.preventDefault)
+aEvt.preventDefault();
+
+aEvt.returnValue = false;
+}
+
+if( window.addEventListener )
+{
+window.addEventListener( 'DOMMouseScroll', function( aEvt ) { return mouseHandlerDispatch( aEvt, MOUSE_WHEEL ); }, false );
+}
+
+window.onmousewheel
+= function( aEvt ) { return mouseHandlerDispatch( aEvt, MOUSE_WHEEL ); };
+
+function mouseHandlerDispatch( aEvt, anAction )
+{
+if( !aEvt )
+aEvt = window.event;
+
+var retVal = true;
+
+if ( mouseHandlerDictionary[currentMode] && mouseHandlerDictionary[currentMode][anAction] )
+{
+var subRetVal = mouseHandlerDictionary[currentMode][anAction]( aEvt );
+
+if( subRetVal != null && subRetVal != undefined )
+retVal = subRetVal;
+}
+
+if( aEvt.preventDefault && !retVal )
+aEvt.preventDefault();
+
+aEvt.returnValue = retVal;
+
+return retVal;
+}
+
+document.onmouseup = function( aEvt ) { return mouseHandlerDispatch( aEvt, MOUSE_UP ); };
+
+
+function mouseClickHelper( aEvt )
+{
+if( !Detect.isMozilla )
+{
+var aWindowObject = document.defaultView;
+if( aWindowObject )
+{
+var aTextSelection = aWindowObject.getSelection();
+var sSelectedText =  aTextSelection.toString();
+if( sSelectedText )
+{
+DBGLOG( 'text selection: ' + sSelectedText );
+if( sLastSelectedText !== sSelectedText )
+{
+bTextHasBeenSelected = true;
+sLastSelectedText = sSelectedText;
+}
+else
+{
+bTextHasBeenSelected = false;
+}
+return null;
+}
+else if( bTextHasBeenSelected )
+{
+bTextHasBeenSelected = false;
+sLastSelectedText = '';
+return null;
+}
+}
+else
+{
+log( 'error: HyperlinkElement.handleClick: invalid window object.' );
+}
+}
+
+var aSlideAnimationsHandler = theMetaDoc.aMetaSlideSet[nCurSlide].aSlideAnimationsHandler;
+if( aSlideAnimationsHandler )
+{
+var aCurrentEventMultiplexer = aSlideAnimationsHandler.aEventMultiplexer;
+if( aCurrentEventMultiplexer )
+{
+if( aCurrentEventMultiplexer.hasRegisteredMouseClickHandlers() )
+{
+return aCurrentEventMultiplexer.notifyMouseClick( aEvt );
+}
+}
+}
+return slideOnMouseUp( aEvt );
+}
+
+
+function getDefaultMouseHandlerDictionary()
+{
+var mouseHandlerDict = {};
+
+mouseHandlerDict[SLIDE_MODE] = {};
+mouseHandlerDict[INDEX_MODE] = {};
+
+mouseHandlerDict[SLIDE_MODE][MOUSE_UP]
+= mouseClickHelper;
+
+mouseHandlerDict[SLIDE_MODE][MOUSE_WHEEL]
+= function( aEvt ) { return slideOnMouseWheel( aEvt ); };
+
+mouseHandlerDict[INDEX_MODE][MOUSE_UP]
+= function( ) { return toggleSlideIndex(); };
+
+return mouseHandlerDict;
+}
+
+function indexSetPageSlide( nIndex )
+{
+var aMetaSlideSet = theMetaDoc.aMetaSlideSet;
+nIndex = getSafeIndex( nIndex, 0, aMetaSlideSet.length - 1 );
+
+var nSelectedThumbnailIndex = nIndex % theSlideIndexPage.getTotalThumbnails();
+var offset = nIndex - nSelectedThumbnailIndex;
+
+if( offset < 0 )
+offset = 0;
+
+if( offset != INDEX_OFFSET )
+{
+INDEX_OFFSET = offset;
+displayIndex( INDEX_OFFSET );
+}
+
+theSlideIndexPage.setSelection( nSelectedThumbnailIndex );
+}
+
+
+/*****
+* @jessyinkend
+*
+*  The above code is a derivative work of some parts of the JessyInk project.
+*  @source http://code.google.com/p/jessyink/
+*/
+
+
+/*****
+* @licstart
+*
+* The following is the license notice for the part of JavaScript code of this
+* page included between the '@dojostart' and the '@dojoend' notes.
+*/
+
+/*****  **********************************************************************
+*
+*  The 'New' BSD License:
+*  **********************
+*  Copyright (c) 2005-2012, The Dojo Foundation
+*  All rights reserved.
+*
+*  Redistribution and use in source and binary forms, with or without
+*  modification, are permitted provided that the following conditions are met:
+*
+*    * Redistributions of source code must retain the above copyright notice,
+*      this list of conditions and the following disclaimer.
+*    * Redistributions in binary form must reproduce the above copyright notice,
+*      this list of conditions and the following disclaimer in the documentation
+*      and/or other materials provided with the distribution.
+*    * Neither the name of the Dojo Foundation nor the names of its contributors
+*      may be used to endorse or promote products derived from this software
+*      without specific prior written permission.
+*
+*  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND
+*  ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+*  WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+*  DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE
+*  FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+*  DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+*  SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+*  CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+*  OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+*  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*
+****************************************************************************/
+
+
+/*****
+* @licend
+*
+* The above is the license notice for the part of JavaScript code of this
+* page included between the '@dojostart' and the '@dojoend' notes.
+*/
+
+
+/*****
+* @dojostart
+*
+*  The following code is a derivative work of some part of the dojox.gfx library.
+*  @source http://svn.dojotoolkit.org/src/dojox/trunk/_base/sniff.js
+*/
+
+function has( name )
+{
+return has.cache[name];
+}
+
+has.cache = {};
+
+has.add = function( name, test )
+{
+has.cache[name] = test;
+};
+
+function configureDetectionTools()
+{
+if( !navigator )
+{
+log( 'error: configureDetectionTools: configuration failed' );
+return null;
+}
+
+var n = navigator,
+dua = n.userAgent,
+dav = n.appVersion,
+tv = parseFloat(dav);
+
+has.add('air', dua.indexOf('AdobeAIR') >= 0);
+has.add('khtml', dav.indexOf('Konqueror') >= 0 ? tv : undefined);
+has.add('webkit', parseFloat(dua.split('WebKit/')[1]) || undefined);
+has.add('chrome', parseFloat(dua.split('Chrome/')[1]) || undefined);
+has.add('safari', dav.indexOf('Safari')>=0 && !has('chrome') ? parseFloat(dav.split('Version/')[1]) : undefined);
+has.add('mac', dav.indexOf('Macintosh') >= 0);
+has.add('quirks', document.compatMode == 'BackCompat');
+has.add('ios', /iPhone|iPod|iPad/.test(dua));
+has.add('android', parseFloat(dua.split('Android ')[1]) || undefined);
+
+if(!has('webkit')){
+if(dua.indexOf('Opera') >= 0){
+has.add('opera', tv >= 9.8 ? parseFloat(dua.split('Version/')[1]) || tv : tv);
+}
+
+if(dua.indexOf('Gecko') >= 0 && !has('khtml') && !has('webkit')){
+has.add('mozilla', tv);
+}
+if(has('mozilla')){
+has.add('ff', parseFloat(dua.split('Firefox/')[1] || dua.split('Minefield/')[1]) || undefined);
+}
+
+if(document.all && !has('opera')){
+var isIE = parseFloat(dav.split('MSIE ')[1]) || undefined;
+
+var mode = document.documentMode;
+if(mode && mode != 5 && Math.floor(isIE) != mode){
+isIE = mode;
+}
+
+has.add('ie', isIE);
+}
+
+has.add('wii', typeof opera != 'undefined' && opera.wiiremote);
+}
+
+var detect =
+{
+isFF: has('ff'),
+
+isIE: has('ie'),
+
+isKhtml: has('khtml'),
+
+isWebKit: has('webkit'),
+
+isMozilla: has('mozilla'),
+isMoz: has('mozilla'),
+
+isOpera: has('opera'),
+
+isSafari: has('safari'),
+
+isChrome: has('chrome'),
+
+isMac: has('mac'),
+
+isIos: has('ios'),
+
+isAndroid: has('android'),
+
+isWii: has('wii'),
+
+isQuirks: has('quirks'),
+
+isAir: has('air')
+};
+return detect;
+}
+
+/*****
+* @dojoend
+*
+*  The above code is a derivative work of some part of the dojox.gfx library.
+*  @source http://svn.dojotoolkit.org/src/dojox/trunk/_base/sniff.js
+*/
+
+/*****
+* @licstart
+*
+* The following is the license notice for the part of JavaScript code of this
+* file included between the '@svgpathstart' and the '@svgpathend' notes.
+*/
+
+/*****  **********************************************************************
+*
+*   Copyright 2015 The Chromium Authors. All rights reserved.
+*
+*   The Chromium Authors can be found at
+*   http://src.chromium.org/svn/trunk/src/AUTHORS
+*
+*   Redistribution and use in source and binary forms, with or without
+*   modification, are permitted provided that the following conditions are
+*   met:
+*
+*   * Redistributions of source code must retain the above copyright
+*   notice, this list of conditions and the following disclaimer.
+*   * Redistributions in binary form must reproduce the above
+*   copyright notice, this list of conditions and the following disclaimer
+*   in the documentation and/or other materials provided with the
+*   distribution.
+*   * Neither the name of Google Inc. nor the names of its
+*   contributors may be used to endorse or promote products derived from
+*   this software without specific prior written permission.
+*
+*   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+*   'AS IS' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+*   LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+*   A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+*   OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+*   SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+*   LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+*   DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+*   THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+*   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+*   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*
+****************************************************************************/
+
+/*****
+* @licend
+*
+* The above is the license notice for the part of JavaScript code of this
+* file included between the '@svgpathstart' and the '@svgpathend' notes.
+*/
+
+
+/*****
+* @svgpathstart
+*
+*  The following code is a derivative work of some part of the SVGPathSeg API.
+*
+*  This API is a drop-in replacement for the SVGPathSeg and SVGPathSegList APIs that were removed from
+*  SVG2 (https://lists.w3.org/Archives/Public/www-svg/2015Jun/0044.html), including the latest spec
+*  changes which were implemented in Firefox 43 and Chrome 46.
+*
+*  @source https://github.com/progers/pathseg
+*/
+
+(function() { 'use strict';
+if (!('SVGPathSeg' in window)) {
+window.SVGPathSeg = function(type, typeAsLetter, owningPathSegList) {
+this.pathSegType = type;
+this.pathSegTypeAsLetter = typeAsLetter;
+this._owningPathSegList = owningPathSegList;
+};
+
+SVGPathSeg.prototype.classname = 'SVGPathSeg';
+
+SVGPathSeg.PATHSEG_UNKNOWN = 0;
+SVGPathSeg.PATHSEG_CLOSEPATH = 1;
+SVGPathSeg.PATHSEG_MOVETO_ABS = 2;
+SVGPathSeg.PATHSEG_MOVETO_REL = 3;
+SVGPathSeg.PATHSEG_LINETO_ABS = 4;
+SVGPathSeg.PATHSEG_LINETO_REL = 5;
+SVGPathSeg.PATHSEG_CURVETO_CUBIC_ABS = 6;
+SVGPathSeg.PATHSEG_CURVETO_CUBIC_REL = 7;
+SVGPathSeg.PATHSEG_CURVETO_QUADRATIC_ABS = 8;
+SVGPathSeg.PATHSEG_CURVETO_QUADRATIC_REL = 9;
+SVGPathSeg.PATHSEG_ARC_ABS = 10;
+SVGPathSeg.PATHSEG_ARC_REL = 11;
+SVGPathSeg.PATHSEG_LINETO_HORIZONTAL_ABS = 12;
+SVGPathSeg.PATHSEG_LINETO_HORIZONTAL_REL = 13;
+SVGPathSeg.PATHSEG_LINETO_VERTICAL_ABS = 14;
+SVGPathSeg.PATHSEG_LINETO_VERTICAL_REL = 15;
+SVGPathSeg.PATHSEG_CURVETO_CUBIC_SMOOTH_ABS = 16;
+SVGPathSeg.PATHSEG_CURVETO_CUBIC_SMOOTH_REL = 17;
+SVGPathSeg.PATHSEG_CURVETO_QUADRATIC_SMOOTH_ABS = 18;
+SVGPathSeg.PATHSEG_CURVETO_QUADRATIC_SMOOTH_REL = 19;
+
+SVGPathSeg.prototype._segmentChanged = function() {
+if (this._owningPathSegList)
+this._owningPathSegList.segmentChanged(this);
+};
+
+window.SVGPathSegClosePath = function(owningPathSegList) {
+SVGPathSeg.call(this, SVGPathSeg.PATHSEG_CLOSEPATH, 'z', owningPathSegList);
+};
+SVGPathSegClosePath.prototype = Object.create(SVGPathSeg.prototype);
+SVGPathSegClosePath.prototype.toString = function() { return '[object SVGPathSegClosePath]'; };
+SVGPathSegClosePath.prototype._asPathString = function() { return this.pathSegTypeAsLetter; };
+SVGPathSegClosePath.prototype.clone = function() { return new SVGPathSegClosePath(undefined); };
+
+window.SVGPathSegMovetoAbs = function(owningPathSegList, x, y) {
+SVGPathSeg.call(this, SVGPathSeg.PATHSEG_MOVETO_ABS, 'M', owningPathSegList);
+this._x = x;
+this._y = y;
+};
+SVGPathSegMovetoAbs.prototype = Object.create(SVGPathSeg.prototype);
+SVGPathSegMovetoAbs.prototype.toString = function() { return '[object SVGPathSegMovetoAbs]'; };
+SVGPathSegMovetoAbs.prototype._asPathString = function() { return this.pathSegTypeAsLetter + ' ' + this._x + ' ' + this._y; };
+SVGPathSegMovetoAbs.prototype.clone = function() { return new SVGPathSegMovetoAbs(undefined, this._x, this._y); };
+Object.defineProperty(SVGPathSegMovetoAbs.prototype, 'x', { get: function() { return this._x; }, set: function(x) { this._x = x; this._segmentChanged(); }, enumerable: true });
+Object.defineProperty(SVGPathSegMovetoAbs.prototype, 'y', { get: function() { return this._y; }, set: function(y) { this._y = y; this._segmentChanged(); }, enumerable: true });
+
+window.SVGPathSegMovetoRel = function(owningPathSegList, x, y) {
+SVGPathSeg.call(this, SVGPathSeg.PATHSEG_MOVETO_REL, 'm', owningPathSegList);
+this._x = x;
+this._y = y;
+};
+SVGPathSegMovetoRel.prototype = Object.create(SVGPathSeg.prototype);
+SVGPathSegMovetoRel.prototype.toString = function() { return '[object SVGPathSegMovetoRel]'; };
+SVGPathSegMovetoRel.prototype._asPathString = function() { return this.pathSegTypeAsLetter + ' ' + this._x + ' ' + this._y; };
+SVGPathSegMovetoRel.prototype.clone = function() { return new SVGPathSegMovetoRel(undefined, this._x, this._y); };
+Object.defineProperty(SVGPathSegMovetoRel.prototype, 'x', { get: function() { return this._x; }, set: function(x) { this._x = x; this._segmentChanged(); }, enumerable: true });
+Object.defineProperty(SVGPathSegMovetoRel.prototype, 'y', { get: function() { return this._y; }, set: function(y) { this._y = y; this._segmentChanged(); }, enumerable: true });
+
+window.SVGPathSegLinetoAbs = function(owningPathSegList, x, y) {
+SVGPathSeg.call(this, SVGPathSeg.PATHSEG_LINETO_ABS, 'L', owningPathSegList);
+this._x = x;
+this._y = y;
+};
+SVGPathSegLinetoAbs.prototype = Object.create(SVGPathSeg.prototype);
+SVGPathSegLinetoAbs.prototype.toString = function() { return '[object SVGPathSegLinetoAbs]'; };
+SVGPathSegLinetoAbs.prototype._asPathString = function() { return this.pathSegTypeAsLetter + ' ' + this._x + ' ' + this._y; };
+SVGPathSegLinetoAbs.prototype.clone = function() { return new SVGPathSegLinetoAbs(undefined, this._x, this._y); };
+Object.defineProperty(SVGPathSegLinetoAbs.prototype, 'x', { get: function() { return this._x; }, set: function(x) { this._x = x; this._segmentChanged(); }, enumerable: true });
+Object.defineProperty(SVGPathSegLinetoAbs.prototype, 'y', { get: function() { return this._y; }, set: function(y) { this._y = y; this._segmentChanged(); }, enumerable: true });
+
+window.SVGPathSegLinetoRel = function(owningPathSegList, x, y) {
+SVGPathSeg.call(this, SVGPathSeg.PATHSEG_LINETO_REL, 'l', owningPathSegList);
+this._x = x;
+this._y = y;
+};
+SVGPathSegLinetoRel.prototype = Object.create(SVGPathSeg.prot
