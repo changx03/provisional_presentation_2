@@ -151,15 +151,35 @@ When a machine learning (ML) model is trained on a large amount of data, how eas
 \end{frame}
 
 %---------------------------------------------------------
-\begin{frame}{Understanding the 4 key questions of Adversarial Attacks}
-In the background study, I reviewed 4 key questions of adversarial attacks:
+\begin{frame}{Understanding Adversarial Attacks}
+To better understand adversarial attacks, I answered these questions in my literature review:
 \begin{itemize}
-    \item \textbf{What} is an adversarial example?
-    \item \textbf{Why} is the ML model vulnerable to attack?
     \item \textbf{When} is the ML model vulnerable to attack?
+    \item \textbf{What} is an adversarial example?
+    \item \textbf{Why} is the ML model vulnerable to adversarial attacks?
     \item \textbf{How} to attack an ML model?
-    % \item Why do adversarial examples transfer between models?
+    \item \textbf{Why} do adversarial examples transfer between models?
 \end{itemize}
+
+\end{frame}
+
+%---------------------------------------------------------
+\begin{frame}{When is the ML model vulnerable to attack?}
+\begin{itemize}
+    \item \textbf{Poisoning Attacks}: Injecting a small fraction of poisoning samples during the \textbf{training}
+    \item \textbf{Evasion Attacks}: Manipulate a single data point to force the model to make a false negative (type II) error at \textbf{runtime}
+\end{itemize}
+
+\begin{figure}
+    \centering
+    \small
+    \includegraphics[width=0.8\linewidth]{images/attack_models.pdf}
+    \caption{Poisoning Attack (Top) and Evasion Attack (Bottom)}
+    \label{fig:surrogate}
+\end{figure}
+
+In my \nth{1} year, I'm focusing on defending evasion attacks. \\
+I will explore poisoning attacks in the next stage.
 
 \end{frame}
 
@@ -182,8 +202,10 @@ In the background study, I reviewed 4 key questions of adversarial attacks:
 \end{examples}
 \end{frame}
 
+
+
 %---------------------------------------------------------
-\begin{frame}{Why is the ML model vulnerable to attack?}
+\begin{frame}{Why is the ML model vulnerable to adversarial attacks?}
 \label{decision_boundary}
 
 \begin{block}{Assumption of ML model}
@@ -214,7 +236,7 @@ In the simplest way, adversarial examples move the clean examples to somewhere n
 \end{frame}
 
 %---------------------------------------------------------
-\begin{frame}{What is the goal of the adversary?}
+\begin{frame}{What is the Goal of the Evasion Attack?}
 \begin{itemize}
     \item Confidence reduction (\textit{Does not affect accuracy})
     \item Untargeted misclassification (\textit{High success rate}: Any label other than the correct one is acceptable)
@@ -248,25 +270,7 @@ There are different interpretations of the maximum \textbf{upper bound}.
 \end{itemize}
 \end{frame}
 
-%---------------------------------------------------------
-\begin{frame}{When is the ML model vulnerable to attack?}
-\begin{itemize}
-    \item \textbf{Poisoning Attacks}: Injecting a small fraction of poisoning samples during the \textbf{training}
-    \item \textbf{Evasion Attacks}: Manipulate a single data point to force the model to make a false negative (type II) error at \textbf{runtime}
-\end{itemize}
 
-\begin{figure}
-    \centering
-    \small
-    \includegraphics[width=0.8\linewidth]{images/attack_models.pdf}
-    \caption{Poisoning Attack (Top) and Evasion Attack (Bottom)}
-    \label{fig:surrogate}
-\end{figure}
-
-In my \nth{1} year, I'm focusing on defending evasion attacks. \\
-I will explore poisoning attacks in the next stage.
-
-\end{frame}
 
 %---------------------------------------------------------
 \begin{frame}{Threat models for Evasion Attacks}
@@ -422,8 +426,8 @@ Implemented a GPU version of the C\&W $l_2$ attack using \textit{PyTorch}
 \begin{figure}
     \centering
     \small
-    \includegraphics[width=0.8\linewidth]{images/Surrogate model.pdf}
-    \caption{Black-box attack can be achieved by training a surrogate model}
+    \includegraphics[width=\linewidth]{images/Surrogate model.pdf}
+    \caption{\textbf{Black-box attack} can be achieved by training a surrogate model and then attacking the surrogate model with \textbf{white-box attacks}}
     \label{fig:surrogate}
 \end{figure}
 \end{frame}
