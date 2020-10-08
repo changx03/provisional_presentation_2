@@ -252,8 +252,16 @@ There are different interpretations of the maximum \textbf{upper bound}.
 \begin{frame}{When is the ML model vulnerable to attack?}
 \begin{itemize}
     \item \textbf{Poisoning Attacks}: Injecting a small fraction of poisoning samples during the \textbf{training}
-    \item \textbf{Evasion Attacks}: Manipulate a single data point to force the model to make a false negative (type II) error at \textbf{test-time / run-time}
+    \item \textbf{Evasion Attacks}: Manipulate a single data point to force the model to make a false negative (type II) error at \textbf{runtime}
 \end{itemize}
+
+\begin{figure}
+    \centering
+    \small
+    \includegraphics[width=0.8\linewidth]{images/attack_models.pdf}
+    \caption{Poisoning Attack (Top) and Evasion Attack (Bottom)}
+    \label{fig:surrogate}
+\end{figure}
 
 In my \nth{1} year, I'm focusing on defending evasion attacks. \\
 I will explore poisoning attacks in the next stage.
