@@ -1,11 +1,15 @@
 \documentclass[9pt]{beamer}
 
+\usetheme[progressbar=frametitle]{metropolis}
+
 \usepackage[english]{babel}
+\usepackage[style=verbose,backend=biber]{biblatex}
 \usepackage[super]{nth}  % First -> 1st -> \nth{1}
 \usepackage[utf8]{inputenc}
-\usepackage[style=verbose,backend=biber]{biblatex}
 \usepackage{algorithmic}
-\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{array}
 \usepackage{booktabs}
 \usepackage{caption}
@@ -23,8 +27,6 @@
 \usepackage{tabularx}
 \usepackage{textcomp}
 \usepackage{xcolor}
-
-\usetheme[progressbar=frametitle]{metropolis}
 
 \addbibresource{references.bib}
 
@@ -125,10 +127,13 @@
 \section{Adversarial Attacks}
 %---------------------------------------------------------
 \begin{frame}{Can we trust the predictions from machine learning models?}
-When a machine learning (ML) model is trained on a large amount of data, how easy is it to fool this model?
+Machine learning (ML) has been used everywhere.
+\par
+When a ML model is trained on a large amount of data, how reliable is the model?
 \begin{itemize}
-    \item State-of-the-art ML models can be easily fooled by malicious inputs
-    \item Exploiting the blind spots in ML models, which are not recognisable by humans
+    \item State-of-the-art ML models can be easily fooled by malicious inputs.
+    \item These inputs exploit the blind spots in the ML models.
+    \item It is difficult for human to distinguish between malicious and normal inputs.
 \end{itemize}
 
 \begin{figure}
@@ -175,7 +180,7 @@ To better understand adversarial attacks, I answered these questions in my liter
     \small
     \includegraphics[width=0.8\linewidth]{images/attack_models.pdf}
     \caption{Poisoning Attack (Top) and Evasion Attack (Bottom)}
-    \label{fig:surrogate}
+    \label{fig:attack_models}
 \end{figure}
 
 In my \nth{1} year, I'm focusing on defending evasion attacks. \\
@@ -198,7 +203,7 @@ I will explore poisoning attacks in the next stage.
         \includegraphics[width=0.7\linewidth]{images/from9to7.png}
         \caption{Clean Input (\textbf{Left}) + Perturbation (\textbf{Middle}) = Adversarial Example (\textbf{Right})}
     \end{figure}
-    A DNN model with 99.6\% accuracy on the test set recognises the left image as \textbf{7}.
+    A DNN model with 99.6\% accuracy on the test set recognises the right image as \textbf{7}.
 \end{examples}
 \end{frame}
 
@@ -274,7 +279,7 @@ There are different interpretations of the maximum \textbf{upper bound}.
 
 %---------------------------------------------------------
 \begin{frame}{Threat models for Evasion Attacks}
-The threat Model is used to determine the difficulty of an evasion attack.
+The difficulty of evasion attacks increases when the adversary has less information about the model and the data.
 
 \begin{block}{Prior}
 Adversaries always have a basic understanding of the data structure.
@@ -289,9 +294,12 @@ Based on the adversary's knowledge
 \end{itemize}
 
 \begin{alertblock}{Evasion Attack Assumption}
-Both data and model are read-only, the adversaries do not alter the model.\\
-No poisoning examples in the training data.
+\begin{itemize}
+    \item Both data and model are read-only
+    \item No poisoning examples in the training data
+\end{itemize}
 \end{alertblock}
+
 \end{frame}
 
 %---------------------------------------------------------
@@ -448,8 +456,10 @@ Implemented a GPU version of the C\&W $l_2$ attack using \textit{PyTorch}
         \includegraphics[width=\linewidth]{images/svm.png}
         \caption{Decision boundary of the SVM}
     \end{subfigure}
-    \caption{The adversarial examples transferred from RF have \textbf{56.5\%} success rate on SVM}
+    \caption{Adversarial examples are generated from Random Forest. The colour of a point is its true label.}
 \end{figure}
+The adversarial examples transferred from RF have \textbf{56.5\%} success rate on SVM
+
 \end{frame}
 
 %---------------------------------------------------------
@@ -481,14 +491,17 @@ Implemented a GPU version of the C\&W $l_2$ attack using \textit{PyTorch}
 \begin{frame}{Preprocessing}
 \label{preprocessing}
 
-Restore the original inputs from adversarial examples\\
-Noise reduction method such as \textbf{PCA}
+\begin{itemize}
+    \item Restore the original inputs from adversarial examples
+    \item Noise reduction method such as \textbf{PCA}
+\end{itemize}
+
 \begin{examples}
     \begin{figure}
         \centering
         \small
         \includegraphics[width=0.72\linewidth]{images/feature_squeeze.pdf}
-        \caption{\textbf{Feature Squeezing} trains multiple models with squeezed training data, such as colours depth re-scaling, Gaussian blur filter and median filter\footcite{xu2017feature}}
+        \caption{\textbf{Feature Squeezing} trains multiple models with squeezed training data, such as bit depth re-scaling, Gaussian blur filter and median filter\footcite{xu2017feature}}
     \end{figure}
 \end{examples}
 
@@ -527,7 +540,7 @@ Producing non-reversible outputs
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.85\linewidth]{images/adversarial-training.pdf}
+    \includegraphics[width=0.75\linewidth]{images/adversarial-training.pdf}
     \caption{Flowchart for Adversarial Retraining}
 \end{figure}
 
