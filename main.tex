@@ -50,18 +50,18 @@
 \setbeamercolor{title}{fg=uniblueDark, bg=white}
 \setbeamercolor{frametitle}{fg=white, bg=uniblue}
 \setbeamercolor{progress bar}{fg=uniblueLight, bg=white}
-\setbeamercolor{block title}{use=structure,fg=white,bg=uniblue!75!black}
+\setbeamercolor{block title}{use=structure,fg=white,bg=uniblue}
 \setbeamercolor{block body}{use=structure,fg=black,bg=blueGrey}
 \setbeamercolor{block title alerted}{fg=white,bg=red800Dark}
 \setbeamercolor*{block title example}{fg=white, bg=green800Dark}
 \setbeamercolor{alerted text}{fg=red800Dark}
-
+\setbeamercolor{footnote}{fg=black}
 \setbeamertemplate{frametitle continuation}[from second]
 \setbeamercolor*{bibliography entry title}{fg=black}
 \setbeamercolor*{bibliography entry author}{fg=black}
 \setbeamercolor*{bibliography entry location}{fg=black}
 \setbeamercolor*{bibliography entry note}{fg=black}
-\setbeamertemplate{bibliography item}{}
+% \setbeamertemplate{bibliography item}{}
 
 %------------------------------------------------------------
 %This block of code defines the information to appear in the
@@ -210,6 +210,7 @@ In the simplest way, adversarial examples move the clean examples to somewhere n
 \end{figure}
 
 \hyperlink{reliability}{\beamerreturnbutton{Reliability Stage}}
+\hyperlink{ad}{\beamerreturnbutton{Applicability Domain}}
 \end{frame}
 
 %---------------------------------------------------------
@@ -276,8 +277,8 @@ Based on the adversary's knowledge
 \end{itemize}
 
 \begin{alertblock}{Evasion Attack Assumption}
-Both data and model are read-only, the adversaries have no edit right.\\
-No poisoning attacks on the training data
+Both data and model are read-only, the adversaries do not alter the model.\\
+No poisoning examples in the training data.
 \end{alertblock}
 \end{frame}
 
@@ -319,60 +320,61 @@ Implemented a GPU version of the C\&W $l_2$ attack using \textit{PyTorch}
 \begin{figure}
     \centering
     \tiny
-    \begin{subfigure}[t]{0.24\linewidth}
+    \begin{subfigure}[t]{0.23\linewidth}
         \centering
         \captionsetup{justification=centering}
         \includegraphics[width=\linewidth]{images/FGSM_2.png}
         \caption{FGSM\\Prediction: 2}
     \end{subfigure}
-    \begin{subfigure}[t]{0.24\linewidth}
+    \begin{subfigure}[t]{0.23\linewidth}
         \centering
         \captionsetup{justification=centering}
         \includegraphics[width=\linewidth]{images/BIM_2.png}
         \caption{BIM\\Prediction: 2}
     \end{subfigure}
-    \begin{subfigure}[t]{0.24\linewidth}
+    \begin{subfigure}[t]{0.23\linewidth}
         \centering
         \captionsetup{justification=centering}
         \includegraphics[width=\linewidth]{images/CW_2.png}
         \caption{C\&W\\Prediction: 2}
     \end{subfigure}
-    \begin{subfigure}[t]{0.24\linewidth}
+    \begin{subfigure}[t]{0.23\linewidth}
         \centering
         \captionsetup{justification=centering}
         \captionsetup{justification=centering}
         \includegraphics[width=\linewidth]{images/DeepFool_2.png}
         \caption{DeepFool\\Prediction: 2}
     \end{subfigure}
-    \begin{subfigure}[t]{0.24\linewidth}
+    \begin{subfigure}[t]{0.23\linewidth}
         \centering
         \captionsetup{justification=centering}
         \includegraphics[width=\linewidth]{images/JSMA_4.png}
         \caption{JSMA\\Prediction: 4}
     \end{subfigure}
-    \begin{subfigure}[t]{0.24\linewidth}
+    \begin{subfigure}[t]{0.23\linewidth}
         \centering
         \captionsetup{justification=centering}
         \includegraphics[width=\linewidth]{images/BoundaryAttack_3.png}
         \caption{Boundary Attack\\Prediction: 2}
     \end{subfigure}
-    \begin{subfigure}[t]{0.24\linewidth}
+    \begin{subfigure}[t]{0.23\linewidth}
         \centering
         \captionsetup{justification=centering}
         \includegraphics[width=\linewidth]{images/Zoo_8.png}
         \caption{Zoo\\Failed}
     \end{subfigure}
-    \begin{subfigure}[t]{0.24\linewidth}
+    \begin{subfigure}[t]{0.23\linewidth}
         \centering
         \captionsetup{justification=centering}
         \includegraphics[width=\linewidth]{images/PixelAttack_8.png}
         \caption{Pixel Attack\\Failed}
     \end{subfigure}
-    \begin{subfigure}[t]{0.24\linewidth}
+    \begin{subfigure}[t]{0.23\linewidth}
         \centering
         \captionsetup{justification=centering}
         \includegraphics[width=\linewidth]{images/clean_8.png}
-        \caption{Original input\\Prediction: 8}
+        \caption{Clean input\\Prediction: 8}
+        \label{fig:clean}
     \end{subfigure}
 \end{figure}
 
@@ -413,7 +415,7 @@ Implemented a GPU version of the C\&W $l_2$ attack using \textit{PyTorch}
     \centering
     \small
     \includegraphics[width=0.8\linewidth]{images/Surrogate model.pdf}
-    \caption{Black-box attack by training a surrogate model}
+    \caption{Black-box attack can be achieved by training a surrogate model}
     \label{fig:surrogate}
 \end{figure}
 \end{frame}
@@ -443,6 +445,7 @@ Implemented a GPU version of the C\&W $l_2$ attack using \textit{PyTorch}
 %---------------------------------------------------------
 
 \begin{frame}{Adversarial defences}
+\label{defence}
 
 \begin{itemize}
     \item Preprocessing
@@ -459,6 +462,7 @@ Implemented a GPU version of the C\&W $l_2$ attack using \textit{PyTorch}
     \label{fig:defence}
 \end{figure}
 
+\hyperlink{blackbox_defence}{\beamerreturnbutton{Black-box Defence}}
 \end{frame}
 
 %---------------------------------------------------------
@@ -546,8 +550,13 @@ Comparing the distribution between adversarial examples and clean training data
 %---------------------------------------------------------
 
 \begin{frame}{Issues in Adversarial Defences}
-No perfect solution for defending against adversarial examples\\
-No machine learning model is imune to adversarial attacks\\
+\textbf{Status Quo}\\
+\begin{itemize}
+    \item No perfect solution for defending against adversarial examples
+    \item No machine learning model is immune to adversarial attacks
+\end{itemize}
+
+\vspace{1cm}
 
 \begin{block}{Research Questions?}
     \begin{itemize}
@@ -559,7 +568,7 @@ No machine learning model is imune to adversarial attacks\\
 
 \end{frame}
 
-\begin{frame}{Block-box Defence}
+\begin{frame}{Black-box Defence}
 \begin{figure}[h!]
     \centering
     \scriptsize
@@ -568,16 +577,20 @@ No machine learning model is imune to adversarial attacks\\
 \end{figure}
 
 \begin{enumerate}
-    \item {\em Generic}: The defence should be applicable to a broad variety of data, ML models, and adversarial attacks.
-    \item {\em Lightweight}: No retraining is required.
-    \item {\em Robust}: Being able to detect adversarial examples transferred from surrogate models.
+    \item \textbf{Generic}: The defence should be applicable to a broad variety of data, ML models, and adversarial attacks.
+    \item \textbf{Lightweight}: No retraining is required.
+    \item \textbf{Robust}: Being able to detect adversarial examples transferred from surrogate models.
 \end{enumerate}
+
+\hyperlink{defence}{\beamergotobutton{White-box Defence}}
 \end{frame}
 
 %---------------------------------------------------------
 \section{Our Black-box Defence: BAARD}
 %---------------------------------------------------------
-\begin{frame}{Inspired by Applicability Domain (AD)}
+\begin{frame}{Inspired by Applicability Domain (AD) in QSAR modelling}
+\label{ad}
+
 \begin{block}{QSAR Modelling}
 \textbf{Quantitative Structure–Activity Relationship} (QSAR) models are classification models used in the chemical and biological sciences
 \end{block}
@@ -591,29 +604,30 @@ AD is used to determine the boundaries of inputs for a given model to ensure rel
 \end{itemize}
 \end{block}
 
-\begin{itemize}
-    \item Adversarial Examples can ``fool'' the model indicating they are NOT suitable for the model
-    \item We adapt the 3-stage approach proposed by Hanser {\em et al.}\footcite{hanser2016applicability}
-\end{itemize}
+Adversarial Examples can ``fool'' the model indicating they are NOT suitable for the model
 
-
+\hyperlink{decision_boundary}{\beamergotobutton{Decision Boundary}}
 \end{frame}
 
 %---------------------------------------------------------
-\begin{frame}{BAARD}
+\begin{frame}{Black-box defence: BAARD}
+\label{blackbox_defence}
+
 \textbf{B}locking \textbf{A}dversarial examples by testing for \textbf{A}pplicability, \textbf{R}eliability and \textbf{D}ecidability
+
+We adapt the 3-stage approach proposed by Hanser {\em et al.}\footcite{hanser2016applicability}
 
 \begin{figure}[h!]
     \centering
     \scriptsize
-    \includegraphics[width=0.85\linewidth]{images/black-box-defence_2.pdf}
+    \includegraphics[width=0.7\linewidth]{images/black-box-defence_2.pdf}
     \caption{Black-box Defence}
 \end{figure}
 
 \begin{figure}
     \centering
     \scriptsize
-    \includegraphics[width=0.85\linewidth]{images/baard_2.pdf}
+    \includegraphics[width=0.7\linewidth]{images/baard_2.pdf}
     \caption{Flowchart of BAARD\footnote{BAARD also uses the predictions from the model. It is omitted to simplify the illustration.}}
 \end{figure}
 \end{frame}
@@ -649,7 +663,7 @@ Can the model make a reliable prediction?
 \begin{itemize}
     \item Adversarial examples are often close to the decision boundary
     \item Adversarial examples may not in the reliable region in the feature space
-    \item This stage is based on the mean \textbf{distance} between the input and its in-class neighbours.
+    \item This stage is based on the mean \textbf{distance} between the input and its in-class neighbours
     \item Multiple nearest-neighbour models; One model per class
 \end{itemize}
 
@@ -667,7 +681,7 @@ Can the model make a clear decision based on the outcome of a prediction?
 
 \begin{itemize}
     \item Adversarial examples may have less informative label \textbf{distribution} of the neighbours for making decision
-    \item This stage is based on the distribution of labels of the nearest neighbours.
+    \item This stage is based on the distribution of labels of the nearest neighbours
     \item One nearest-neighbour model; Train on entire training set
 \end{itemize}
 
@@ -691,6 +705,8 @@ Can the model make a clear decision based on the outcome of a prediction?
         \textsc{Baard} & \textbf{0.7781} & \textbf{0.9160} & 0.7377 & \textbf{0.9455} & 0.5367 & \textbf{0.8964} & 0.8338 & 0.8622 & 0.8722 & \textbf{0.9385} \\ \hline
     \end{tabularx}
 \end{table}
+
+Only BAARD does not retrain the ML model.
 
 \end{frame}
 
